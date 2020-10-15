@@ -7,7 +7,6 @@ import numpy as np
 from .trainer import parse_device_string
 import torch.nn.functional as F
 
-
 def predict(test_X, test_y, model_class, model_state_dict, optimizer_state_dict, trained_hyperparamaters, vocab, id2ner):
     input_size = int(test_X.max())+3 # len(vocab)
     batch_size = 1
