@@ -273,7 +273,6 @@ class Trainer:
 
         n_correct = 0
         for pred, targ in zip(scores, target):
-    
             # dim=0 means get softmax() probability and then max_score across 5 columns (5 ner ids columns) for each token
             # then I check whether the index of max score from columns
             # equals the target array (which is values from 0 to 4),

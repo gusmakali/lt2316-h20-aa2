@@ -109,7 +109,7 @@ The best model stays at around 98% in accuracy over the val set, and gives 98,27
 Please see my `predict` function. It's imported in run_v2.ipynb from an updated `predict.py`.
 It will randomly choose a sentence from the test test. It will make a prediction on it and give an extensive print statement per token whether the prediction was correct. If it was not correct it will tell which one is correct.
 
-***Further discussion and BIO*** 
+***Further discussion and BIO***  
 As you can see from the print of `predict` my model is almost 100% correct about recognizing '0' - non-NERs. 
 I know that 0 label is 70% of the whole data, however, I cannot still understand how I am getting such a hight accuracy (if you manage to find a bug PLEASE point me to it). 
 
